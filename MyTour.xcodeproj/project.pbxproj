@@ -14,6 +14,7 @@
 		A24F948E2AF258C1001E9222 /* Destination.swift in Sources */ = {isa = PBXBuildFile; fileRef = A24F948D2AF258C1001E9222 /* Destination.swift */; };
 		A24F94902AF26367001E9222 /* EditDestinationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A24F948F2AF26367001E9222 /* EditDestinationView.swift */; };
 		A24F94922AF26D53001E9222 /* DestinationListingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A24F94912AF26D53001E9222 /* DestinationListingView.swift */; };
+		A24F94942AF2847C001E9222 /* Sight.swift in Sources */ = {isa = PBXBuildFile; fileRef = A24F94932AF2847C001E9222 /* Sight.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +26,7 @@
 		A24F948D2AF258C1001E9222 /* Destination.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Destination.swift; sourceTree = "<group>"; };
 		A24F948F2AF26367001E9222 /* EditDestinationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditDestinationView.swift; sourceTree = "<group>"; };
 		A24F94912AF26D53001E9222 /* DestinationListingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DestinationListingView.swift; sourceTree = "<group>"; };
+		A24F94932AF2847C001E9222 /* Sight.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sight.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 				A24F947F2AF257E9001E9222 /* MyTourApp.swift */,
 				A24F94812AF257E9001E9222 /* ContentView.swift */,
 				A24F94912AF26D53001E9222 /* DestinationListingView.swift */,
+				A24F94932AF2847C001E9222 /* Sight.swift */,
 				A24F948F2AF26367001E9222 /* EditDestinationView.swift */,
 				A24F948D2AF258C1001E9222 /* Destination.swift */,
 				A24F94832AF257EA001E9222 /* Assets.xcassets */,
@@ -149,6 +152,7 @@
 				A24F94822AF257E9001E9222 /* ContentView.swift in Sources */,
 				A24F94802AF257E9001E9222 /* MyTourApp.swift in Sources */,
 				A24F948E2AF258C1001E9222 /* Destination.swift in Sources */,
+				A24F94942AF2847C001E9222 /* Sight.swift in Sources */,
 				A24F94902AF26367001E9222 /* EditDestinationView.swift in Sources */,
 				A24F94922AF26D53001E9222 /* DestinationListingView.swift in Sources */,
 			);

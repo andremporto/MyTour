@@ -11,6 +11,7 @@ import SwiftData
 struct EditDestinationView: View {
     
     @Bindable var destination: Destination
+    @State private var newSightName = ""
     
     var body: some View {
         Form {
@@ -26,9 +27,31 @@ struct EditDestinationView: View {
                 }
                 .pickerStyle(.segmented)
             }
+            
+            Section("Locais Visitados") {
+                ForEach(destination.sights) { sight in
+                    Text(sight.name)
+                }
+                
+                HStack {
+                    TextField("Adicione um novo local aqui", text: $newSightName)
+                    
+                    Button("Adicionar", action: addSight)
+                }
+            }
         }
         .navigationTitle("Editar Destino")
         .navigationBarTitleDisplayMode(.inline)
+    }
+    
+    func addSight() {
+        guard newSightName.isEmpty == false else { return }
+        
+        withAnimation {
+            let sight = Sight(name: newSightName)
+            destination.sights.append(sight)
+            newSightName = ""
+        }
     }
 }
 
